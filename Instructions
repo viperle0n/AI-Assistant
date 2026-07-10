@@ -1,0 +1,6 @@
+Make sure Ollama is running
+Open cmd
+Run Uvicorn (python -m uvicorn app.main:app --reload)
+Run Streamlit (python -m streamlit run ui/chat.py)
+Access http://127.0.0.1:8000/docs for API
+Access http://localhost:8501 for chat
